@@ -13,6 +13,17 @@ body {
   scroll-behavior: smooth;
 }
 
+.headerTop {
+  position: relative;
+}
+
+.headerTop.fixed-header {
+  position: sticky;
+  background: rgba(255, 144, 0, 0.9);
+  z-index: 9999;
+  top: 0;
+}
+
 .header {
   display: block;
   background-image: url(../img/cover_bg_3.jpg);
@@ -211,6 +222,7 @@ body {
 .About {
   background: #000000;
   padding: 60px 0px;
+  position: relative;
 }
 
 .About .aboutHeader {
@@ -1028,6 +1040,12 @@ body {
   .formbox {
     width: 100%;
   }
+  .location {
+    padding: 50px 20px;
+  }
+  .location .wrapper {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -1116,5 +1134,11 @@ body {
   .contact-detail .contact-address .contact-data h2 span {
     line-height: 21px;
     font-size: 14px;
+  }
+  .location {
+    padding: 50px 20px;
+  }
+  .location .wrapper {
+    width: 100%;
   }
 }

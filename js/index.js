@@ -53,3 +53,15 @@ $(document).ready(function () {
     return false;
   });
 });
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 50) {
+    $(".headerTop").addClass("fixed-header");
+  } else {
+    $(".headerTop").removeClass("fixed-header");
+  }
+});
+
+$(window).scroll(function () {
+  console.log($(window).scrollTop()); // Check the scroll position
+});
