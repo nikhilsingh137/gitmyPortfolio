@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="header" id="Home">
+      <div class="overlay"></div>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="img/nikhil-logo-removebg-preview.png" alt="Logo" />
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About me">About me</a></li>
+            <li><a href="#My Resume">My Resume</a></li>
+            <li><a href="#My Services">My Services</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Location">Location</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <span>
+          <img src="img/nikhil-logo-removebg-preview.png" alt="Image Logo" />
+        </span>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About me">About me</a></li>
+          <li><a href="#My Resume">My Resume</a></li>
+          <li><a href="#My Services">My Services</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Location">Location</a></li>
+        </ul>
+      </div>
+      <div class="sideOpen" onclick="handleSide()" id="sideOpen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="sideClose" id="sideClose" onclick="handleSideClose()">X</div>
+      <div class="profile">
+        <span>
+          <img src="img/nikhil image.jpg" alt="Profile Image" />
+        </span>
+        <div class="profile-text">
+          <h2>Nikhil Singh</h2>
+          <h3>Web Developer</h3>
+          <div class="profile-icon">
+            <a href="https://github.com/">
+              <i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/feed/?trk=seo-authwall-base_sign-in-submit"
+            >
+              <i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="About" id="About me">
+      <div class="aboutHeader">
+        <h2>About Me</h2>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia.
+        </p>
+      </div>
+      <div class="aboutDetail">
+        <div class="data">
+          <h2>Name :</h2>
+          <h3>Nikhil Singh</h3>
+        </div>
+        <div class="data">
+          <h2>Date of birth :</h2>
+          <h3>June 06, 2002</h3>
+        </div>
+        <div class="data">
+          <h2>Address :</h2>
+          <h3>June 06, 2002</h3>
+        </div>
+        <div class="data">
+          <h2>Email :</h2>
+          <h3>June 06, 2002</h3>
+        </div>
+        <div class="data">
+          <h2>Phone :</h2>
+          <h3>June 06, 2002</h3>
+        </div>
+        <div class="button">
+          <a
+            href="file:///C:/Users/Dell/Downloads/Nikhil-singh.docx.pdf"
+            target="_blank"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="resume" id="My Resume">
+      <div class="wrapper">
+        <div class="resume-header">
+          <h2>My Resume</h2>
+        </div>
+        <div class="resume-detail">
+          <div class="data">
+            <h2>Bachelor of Science (Maths)</h2>
+            <i></i>
+            <h3>Dr. Ram Manohar Lohia Avadh University</h3>
+            <h4>Ayodhya, Uttar Pradesh,India</h4>
+            <p>
+              The university initially started its office in a rental building
+              at Civil Lines, Ayodhya. Land acquisition process for varsity's
+              formal office started in 1976. Ultimately, the then Chancellor and
+              the Governer of state Shri G.D. Tapase laid foundation of the
+              present administrative building of the varsity on 02 May 1978. The
+              university assumed the shape of an affiliating cum residential
+              varsity in April 1984. The residential segment became functional
+              with the opening of four PG departments in the campus viz.
+              History, Culture & Archaeology, Economics & Rural Development,
+              Mathematics & Statistics and Physics & Electronics.
+            </p>
+          </div>
+          <div class="data">
+            <h2>Full Stack Developer Course</h2>
+            <i></i>
+            <h3>CETPA Infotech Pvt. ltd.</h3>
+            <h4>Noida, Uttar Pradesh,India</h4>
+            <p>
+              CETPA Infotech Pvt Ltd is located in Noida, Uttar Pradesh. It is a
+              premier institute in higher education and offers Certificate
+              courses including Certificate programmes. The most popular
+              programme offered at the CETPA Infotech Pvt Ltd is Certificate
+              programme. Further, the institute offers a wide range of
+              programmes in the streams of IT & Software, Engineering, Design,
+              Data Science and Business & Management Studies. CETPA Infotech Pvt
+              Ltd has a panel of experienced lecturers to inspire students in
+              their respective careers and to give them tips and invaluable
+              insights in every course.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="My Services">
+      <div class="wrapper">
+        <div class="services-header">
+          <h2>My Services</h2>
+          <p>
+            I build fully responsive, modern websites using the latest web
+            technologies. From simple landing pages to complex web applications,
+            I ensure your website looks great and functions smoothly on all
+            devices.
+          </p>
+        </div>
+        <div class="service-container">
+          <div class="service-item">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>
+              I specialize in creating responsive and dynamic websites using
+              HTML, CSS, JavaScript, and React. I ensure cross-browser
+              compatibility and modern web standards.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Front-End Design</h3>
+            <p>
+              I craft visually appealing, user-friendly front-end interfaces
+              using modern frameworks like React.js and advanced CSS
+              methodologies, including SASS and responsive design.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fa-solid fa-server"></i>
+            <h3>Back-End Development</h3>
+            <p>
+              I develop robust and scalable back-end solutions using Node.js,
+              Express.js, and databases like MongoDB. I ensure security and
+              efficiency in handling data.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fa-solid fa-code-branch"></i>
+            <h3>Full Stack Development</h3>
+            <p>
+              As a full-stack developer, I can handle both front-end and
+              back-end development. From database management to API integration,
+              I provide complete web solutions.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Website Optimization</h3>
+            <p>
+              I optimize websites for performance, ensuring fast load times, SEO
+              best practices, and mobile responsiveness to improve user
+              experience and ranking.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fa-solid fa-tools"></i>
+            <h3>Website Maintenance</h3>
+            <p>
+              I offer website maintenance services to keep your site up-to-date,
+              secure, and functioning smoothly. This includes regular updates,
+              backups, and technical support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skill" id="Skills">
+      <div class="wrapper">
+        <div class="skill-header">
+          <h2>My Skills</h2>
+          <p>
+            I am a web developer skilled in HTML and CSS for building responsive
+            web pages, and proficient in JavaScript for creating interactive
+            features. My expertise includes React.js for scalable applications,
+            Node.js for server-side development, and database management with
+            MongoDB and SQL. I focus on responsive design, use Git for version
+            control, and excel in problem-solving and debugging to optimize web
+            performance.
+          </p>
+        </div>
+        <div class="skill-detail">
+          <div class="data">
+            <div class="content">
+              <h2>HTML</h2>
+              <h3>90%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>CSS</h2>
+              <h3>70%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>JAVASCRIPT</h2>
+              <h3>70%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>JQUERY</h2>
+              <h3>80%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>BOOTSTRIP</h2>
+              <h3>70%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>REACT JS</h2>
+              <h3>70%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>NEXT JS</h2>
+              <h3>60%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>NODE JS</h2>
+              <h3>50%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>SASS</h2>
+              <h3>80%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>TYPESCRIPT</h2>
+              <h3>80%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>REDUX</h2>
+              <h3>80%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="content">
+              <h2>MONGODB</h2>
+              <h3>70%</h3>
+            </div>
+            <div class="range">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio" id="Portfolio">
+      <div class="wrapper">
+        <div class="portfolio-header">
+          <h2>Portfolio</h2>
+          <p>
+            My portfolio showcases a diverse range of web development projects
+            that demonstrate my skills and creativity. Each project reflects my
+            commitment to building user-friendly and responsive applications,
+            from dynamic single-page applications using React.js to server-side
+            solutions built with Node.js and Express. I take pride in crafting
+            visually appealing designs and optimizing performance to enhance
+            user experiences. Explore my work to see how I can bring innovative
+            solutions to life and help businesses achieve their online goals.
+          </p>
+        </div>
+        <div class="portfolio-nav">
+          <ul>
+            <li><a href="#All">ALL</a></li>
+            <li><a href="#App">App</a></li>
+            <li><a href="#Card">Card</a></li>
+            <li><a href="#Web">Web</a></li>
+          </ul>
+        </div>
+        <div class="section-box" id="All">
+          <div class="imagebox">
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-1.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-6.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-2.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-5.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-9.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-3.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-4.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-7.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-8.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section-box" id="All">
+          <div class="imagebox">
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-1.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-6.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-2.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-5.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-9.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-3.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-4.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-7.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-8.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section-box" id="All">
+          <div class="imagebox">
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-1.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-6.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-2.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-5.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-9.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/masonry-portfolio-3.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-4.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-7.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+              <span>
+                <img src="img/masonry-portfolio-8.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section-box" id="App">
+          <div class="imagebox">
+            <div class="imageSection">
+              <span>
+                <img
+                  src="img/masonry-portfolio-1 (1).jpg"
+                  alt="portfolio Image"
+                />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img
+                  src="img/masonry-portfolio-4 (1).jpg"
+                  alt="portfolio Image"
+                />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img
+                  src="img/masonry-portfolio-7 (1).jpg"
+                  alt="portfolio Image"
+                />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section-box" id="Card">
+          <div class="imagebox">
+            <div class="imageSection">
+              <span>
+                <img src="img/card-1.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/card-2.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/card-3.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section-box" id="Web">
+          <div class="imagebox">
+            <div class="imageSection">
+              <span>
+                <img src="img/web-1.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/web-2.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+            <div class="imageSection">
+              <span>
+                <img src="img/web-3.jpg" alt="portfolio Image" />
+                <div class="text">
+                  <h2>Branding 2</h2>
+                  <h3>Lorem ipsum, dolor sit</h3>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="Contact">
+      <div class="wrapper">
+        <div class="contact-header">
+          <h2>Contact</h2>
+          <p>
+            I welcome any inquiries or opportunities for collaboration! Whether
+            you have questions about my projects, want to discuss potential
+            partnerships, or need assistance with web development, feel free to
+            reach out. I'm excited to hear from you and explore how we can work
+            together to create something amazing!
+          </p>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-address">
+            <div class="contact-data">
+              <i class="fa-solid fa-location-dot"></i>
+              <h2>
+                Address <br />
+                <span>A108 Adam Street, New York, NY 535022</span>
+              </h2>
+            </div>
+            <div class="contact-data">
+              <i class="fa-solid fa-location-dot"></i>
+              <h2>
+                Address <br />
+                <span>A108 Adam Street, New York, NY 535022</span>
+              </h2>
+            </div>
+            <div class="contact-data">
+              <i class="fa-solid fa-location-dot"></i>
+              <h2>
+                Address <br />
+                <span>A108 Adam Street, New York, NY 535022</span>
+              </h2>
+            </div>
+          </div>
+          <div class="formbox">
+            <form>
+              <div class="formbar">
+                <div class="data">
+                  <input type="text" placeholder="Name" id="demo" />
+                  <span id="error"></span>
+                </div>
+                <div class="data">
+                  <input type="email" placeholder="Email" id="demo1" />
+                  <span id="error1"></span>
+                </div>
+              </div>
+              <div class="formData">
+                <input type="text" placeholder="Subject" id="demo2" />
+                <span id="error2"></span>
+              </div>
+              <div class="formData">
+                <textarea id="demo3" placeholder="Message"></textarea>
+                <span id="error3"></span>
+              </div>
+              <button>Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="location" id="Location">
+      <div class="wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56071.35728859291!2d77.24754737421426!3d28.55595162235514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce389d6292b91%3A0xf14650156ee02f4d!2sNew%20Delhi%2C%20Delhi%20110025!5e0!3m2!1sen!2sin!4v1727439491285!5m2!1sen!2sin"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
