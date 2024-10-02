@@ -17,13 +17,6 @@ body {
   position: relative;
 }
 
-.headerTop.fixed-header {
-  position: sticky;
-  background: rgba(255, 144, 0, 0.9);
-  z-index: 9999;
-  top: 0;
-}
-
 .header {
   display: block;
   background-image: url(../img/cover_bg_3.jpg);
