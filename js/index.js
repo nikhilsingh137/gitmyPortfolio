@@ -53,3 +53,51 @@ $(document).ready(function () {
     return false;
   });
 });
+
+function handleSubmit() {
+  const nameValue = document.getElementById("demo").value;
+  const emailValue = document.getElementById("demo1").value;
+  const subjectValue = document.getElementById("demo2").value;
+  const messageValue = document.getElementById("demo3").value;
+
+  const nameError = document.getElementById("error");
+  const emailError = document.getElementById("error1");
+  const subjectError = document.getElementById("error2");
+  const messageError = document.getElementById("error3");
+
+  let inputValue = true;
+
+  if (nameValue.trim() === "") {
+    nameError.textContent = "This field is required";
+    inputValue = false;
+  } else {
+    nameError.textContent = "";
+  }
+
+  if (emailValue.trim() === "") {
+    emailError.textContent = "This field is required";
+    inputValue = false;
+  } else {
+    emailError.textContent = "";
+  }
+
+  if (subjectValue.trim() === "") {
+    subjectError.textContent = "This field is required";
+    inputValue = false;
+  } else {
+    subjectError.textContent = "";
+  }
+
+  if (messageValue.trim() === "") {
+    messageError.textContent = "This field is required";
+    inputValue = false;
+  } else {
+    messageError.textContent = "";
+  }
+
+  if (inputValue) {
+    document.getElementById("myForm").reset();
+  }
+
+  return inputValue;
+}

@@ -836,7 +836,6 @@ body {
 }
 
 .formData {
-  margin-top: 25px;
   display: block;
 }
 
@@ -888,6 +887,14 @@ body {
   border: solid 1px #0563bb;
   color: #fff;
   transition: 0.6s;
+}
+
+.formbox span {
+  color: #ff0000;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  padding: 15px 0px;
 }
 
 .formbox button:hover {

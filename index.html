@@ -740,7 +740,11 @@
             </div>
           </div>
           <div class="formbox">
-            <form>
+            <form
+              id="myForm"
+              onsubmit="return handleSubmit()"
+              action="submit.html"
+            >
               <div class="formbar">
                 <div class="data">
                   <input type="text" placeholder="Name" id="demo" />
