@@ -146,7 +146,7 @@ body {
 
 .header .sideOpen span {
   height: 3px;
-  background: #fff;
+  background: #0000ff;
   width: 100%;
   margin: 3px 0px;
 }
@@ -155,7 +155,7 @@ body {
   display: none;
   position: fixed;
   right: 20px;
-  color: #fff;
+  color: #0000ff;
   top: 20px;
   font-size: 25px;
   z-index: 99;
